@@ -17,7 +17,7 @@ void main() {
             OwesomeValidator.passwordMinLen8withCamelAndSpecialChar),
         true);
     expect(
-        OwesomeValidator.phone("+923092783699", OwesomeValidator.patternPhone),
+        OwesomeValidator.phone("+923090052512", OwesomeValidator.patternPhone),
         true);
   });
 }
