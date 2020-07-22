@@ -44,7 +44,7 @@ void main() {
       "osama.asif20@gmail.com", OwesomeValidator.patternEmail);
   OwesomeValidator.password(
       "Osama12@1", OwesomeValidator.passwordMinLen8withCamelAndSpecialChar);
-  OwesomeValidator.phone("+923092783699", OwesomeValidator.patternPhone);
+  OwesomeValidator.phone("+923093234697", OwesomeValidator.patternPhone);
 }
 
 // Yeah the usuage is mentioned above just call the class function and utilize it, here's the one more if you want to add your custom regex so just pass your regex string to the function and rest leave on it.
