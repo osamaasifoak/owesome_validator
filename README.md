@@ -1,13 +1,18 @@
 # owesome_validator
 
-A package for flutter for validation based on pure dart code, it will provide most of common validation like name, email, password, contact etc.
+A package for flutter for validation based on pure dart code, it will 
+provide most of common validation like name, email, password, contact etc.
 
 ## How to use this package?
 Don't worry it's very simple..
 
-This is the base class for your understanding that what is going on inside this package. 
+This is the base class for your understanding 
+that what is going on inside this package. 
 class OwesomeValidator {
-  /// [pattern for validationm, These are the basic validation regex patterns you can add your custom regex by passing it to function]
+  /// pattern for validationm, These are the basic validation 
+  /// regex patterns you can add your custom regex by passing it to function
+  
+  
   static const Pattern patternNameOnlyChar =
       r'^[A-Za-z ]+(?:[ _-][A-Za-z ]+)*$';
   static const Pattern passwordMinLen8withCamelAndSpecialChar =
