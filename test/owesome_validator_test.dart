@@ -4,10 +4,20 @@ import 'package:owesome_validator/owesome_validator.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
-    expect(() => calculator.addOne(null), throwsNoSuchMethodError);
+    expect(
+        OwesomeValidator.name(
+            "Osama Asif", OwesomeValidator.patternNameOnlyChar),
+        true);
+    expect(
+        OwesomeValidator.email(
+            "osama.asif20@gmail.com", OwesomeValidator.patternEmail),
+        true);
+    expect(
+        OwesomeValidator.password("Osama12@1",
+            OwesomeValidator.passwordMinLen8withCamelAndSpecialChar),
+        true);
+    expect(
+        OwesomeValidator.phone("+923092783699", OwesomeValidator.patternPhone),
+        true);
   });
 }

@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2020-07-22
 
-* TODO: Describe initial release.
+* A package for flutter for validation based on pure dart code, it will provide most of common validation like name, email, password, contact etc.
