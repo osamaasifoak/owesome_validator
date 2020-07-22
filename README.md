@@ -52,30 +52,33 @@ void main() {
   test('adds one to input values', () {
     expect(
         OwesomeValidator.name(
-            "Osama Asif", OwesomeValidator.patternNameOnlyChar),
+            "Osama Asif", 
+            OwesomeValidator.patternNameOnlyChar),
         true);
     expect(
         OwesomeValidator.email(
-            "osama.asif20@gmail.com", OwesomeValidator.patternEmail),
+            "osama.asif20@gmail.com", 
+            OwesomeValidator.patternEmail),
         true);
     expect(
         OwesomeValidator.password("Osama12@1",
             OwesomeValidator.passwordMinLen8withCamelAndSpecialChar),
         true);
     expect(
-        OwesomeValidator.phone("+923092783699", OwesomeValidator.patternPhone),
+        OwesomeValidator.phone("+923092783699", 
+        OwesomeValidator.patternPhone),
         true);
   });
 }
 
 
-Yeah the usuage is mentioned above just call the class function and utilize it,
+/* Yeah the usuage is mentioned above just call the class function and utilize it,
 here's the one more if you want to add your custom regex so just pass your regex string
 to the function and rest leave on it.
 
 String myCustomRegexString = r'^[A-Za-z ]+(?:[ _-][A-Za-z ]+)*$';
 
-OwesomeValidator.name("Osama12@1",myCustomRegexString);
+OwesomeValidator.name("Osama12@1",myCustomRegexString); */
 
 
 
