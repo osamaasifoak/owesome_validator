@@ -14,7 +14,7 @@ To use this plugin, add `owesome_validator` as a [dependency in your pubspec.yam
 
 ## Getting Started
 
-- first import a package into your file.
+- First import a package into your file.
 
 - After importing, we are able to get the built-in methods
   - Name Validation 📛
