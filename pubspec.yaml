@@ -1,6 +1,6 @@
 name: owesome_validator
 description: A package for flutter for validation based on pure dart code, it will provide most of common validation like name, email, password, contact etc.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/osamaasifoak/owesome_validator
 
 environment:
