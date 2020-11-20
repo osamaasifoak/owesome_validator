@@ -1,4 +1,4 @@
-# Owesome_validator 🛒
+# Owesome_validator ✔️
 
 ![pub package](https://img.shields.io/pub/v/owesome_validator?label=owesome_validator&style=plastic)
 
@@ -17,22 +17,21 @@ To use this plugin, add `owesome_validator` as a [dependency in your pubspec.yam
 - first import a package into your file.
 
 - After importing, we are able to get the built-in methods
-  - Name Validation
+  - Name Validation 📛
     ```
          OwesomeValidator.name(name, OwesomeValidator.patternNameOnlyChar);
     ```
-  - Email Validation ➖
+  - Email Validation ✉️
     ```
          OwesomeValidator.email(email, OwesomeValidator.patternEmail);
     ```
-  - Phone Validation ➕
+  - Phone Validation 📞
     ```
          OwesomeValidator.phone(phone, OwesomeValidator.patternPhone);
     ```
-  - password
+  - password 🔑
     ```
         OwesomeValidator.password(password, OwesomeValidator.passwordMinLen8withCamelAndSpecialChar)
     ```
-
  ### Note 
     You can pass your custom regex for validation. This package will be improved more by time to time  
