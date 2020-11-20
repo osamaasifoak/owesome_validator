@@ -1,3 +1,3 @@
-## [0.0.3] - 2020-07-22
+## [0.0.4] - 2020-11-20
 
-* A package for flutter for validation based on pure dart code, it will provide most of common validation like name, email, password, contact etc.
+* The documentation has been improved in this update.
