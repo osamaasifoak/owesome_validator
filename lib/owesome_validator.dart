@@ -1,7 +1,7 @@
 library owesome_validator;
 
 class OwesomeValidator {
-  /// [pattern for validationm, These are the basic validation regex patterns you can add your custom regex by passing it to function]
+  /// [pattern for validation, These are the basic validation regex patterns you can add your custom regex by passing it to function]
   static const Pattern patternNameOnlyChar =
       r'^[A-Za-z ]+(?:[ _-][A-Za-z ]+)*$';
   static const Pattern passwordMinLen8withCamelAndSpecialChar =
