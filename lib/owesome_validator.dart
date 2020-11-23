@@ -6,6 +6,8 @@ class OwesomeValidator {
       r'^[A-Za-z ]+(?:[ _-][A-Za-z ]+)*$';
   static const Pattern passwordMinLen8withCamelAndSpecialChar =
       r'^((?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_]).{8,20})';
+  static const Pattern passwordMinLen8withLowerCaseAndSpecialChar =
+      r'^((?=.*\d)(?=.*[a-z])(?=.*[\W_]).{8,20})';
   static const Pattern patternEmail =
       r'^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$';
   static const Pattern patternPhone = r'^(?:[+0]9)?[0-9]{11}$';
