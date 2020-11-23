@@ -1,3 +1,5 @@
+## 0.0.5
+- Minor changes  
 ## 0.0.4
 - Fixed documentation 
 - Added tests
