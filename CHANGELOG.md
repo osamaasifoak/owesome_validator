@@ -1,3 +1,5 @@
+## 0.0.6
+- Migrate to null-safe  
 ## 0.0.5
 - Minor changes  
 ## 0.0.4

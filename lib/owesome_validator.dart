@@ -14,23 +14,23 @@ class OwesomeValidator {
 
   /// [common functions]
 
-  static bool name(String name, String pattern) {
-    RegExp regexName = new RegExp(pattern);
+  static bool name(String name, Pattern pattern) {
+    RegExp regexName = new RegExp(pattern.toString());
     return !regexName.hasMatch(name) ? false : true;
   }
 
-  static bool password(String password, String pattern) {
-    RegExp regexPassword = new RegExp(pattern);
+  static bool password(String password, Pattern pattern) {
+    RegExp regexPassword = new RegExp(pattern.toString());
     return !regexPassword.hasMatch(password) ? false : true;
   }
 
-  static bool email(String email, String pattern) {
-    RegExp regexEmail = new RegExp(pattern);
+  static bool email(String email, Pattern pattern) {
+    RegExp regexEmail = new RegExp(pattern.toString());
     return !regexEmail.hasMatch(email) ? false : true;
   }
 
-  static bool phone(String phone, String pattern) {
-    RegExp regexPhone = new RegExp(pattern);
+  static bool phone(String phone, Pattern pattern) {
+    RegExp regexPhone = new RegExp(pattern.toString());
     return !regexPhone.hasMatch(phone) ? false : true;
   }
 }
